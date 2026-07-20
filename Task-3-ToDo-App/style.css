@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#74ebd5,#9face6);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    background:#fff;
+    width:100%;
+    max-width:500px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#333;
+}
+
+.input-section{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+#taskInput{
+    flex:1;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+#addTaskBtn{
+    padding:12px 18px;
+    border:none;
+    background:#4CAF50;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#addTaskBtn:hover{
+    background:#45a049;
+}
+
+.filter-section{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.filter-btn{
+    flex:1;
+    margin:0 5px;
+    padding:10px;
+    border:none;
+    background:#e0e0e0;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.filter-btn:hover{
+    background:#d0d0d0;
+}
+
+.filter-btn.active{
+    background:#4CAF50;
+    color:white;
+}
+
+#taskList{
+    list-style:none;
+    margin-top:15px;
+}
+
+#taskList li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f4f4f4;
+    padding:12px;
+    margin-bottom:10px;
+    border-radius:8px;
+}
+
+#taskList li span{
+    cursor:pointer;
+    flex:1;
+}
+
+.completed span{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.edit-btn{
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-right:5px;
+    transition:0.3s;
+}
+
+.edit-btn:hover{
+    background:#e68900;
+}
+
+.delete-btn{
+    background:crimson;
+    color:white;
+    border:none;
+    padding:6px 10px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.delete-btn:hover{
+    background:darkred;
+}
+
+.footer{
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+    color:#333;
+}
+
+@media (max-width:600px){
+
+    .input-section{
+        flex-direction:column;
+    }
+
+    #addTaskBtn{
+        width:100%;
+    }
+
+    .filter-section{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    .filter-btn{
+        margin:0;
+    }
+
+}
