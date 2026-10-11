@@ -6,6 +6,12 @@ This project enhances the personal portfolio by implementing responsive web desi
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[View Live Project](https://pratham-responsive-portfolio.netlify.app/)**
+
+---
+
 ## ✨ Features
 
 - Mobile Responsive Layout
@@ -25,18 +31,12 @@ This project enhances the personal portfolio by implementing responsive web desi
 
 ## 📁 Folder Structure
 
-```
+```text
 Task-2-Responsive-Portfolio/
 │── index.html
 │── css/
 │── images/
 ```
-
----
-
-## 🚀 How to Run
-
-Open `index.html` in any modern web browser.
 
 ---
 
