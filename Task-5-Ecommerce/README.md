@@ -6,6 +6,12 @@ TechKart is a responsive e-commerce web application developed using HTML, CSS, a
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[TechKart.netlify.app](https://task-5-ecommerce.netlify.app/)**
+
+---
+
 ## ✨ Features
 
 - Responsive Design
@@ -32,7 +38,7 @@ TechKart is a responsive e-commerce web application developed using HTML, CSS, a
 
 ## 📁 Folder Structure
 
-```
+```text
 Task-5-Ecommerce/
 │── css/
 │── data/
@@ -44,14 +50,6 @@ Task-5-Ecommerce/
 │── about.html
 │── contact.html
 ```
-
----
-
-## 🚀 How to Run
-
-1. Download the repository.
-2. Open the `Task-5-Ecommerce` folder.
-3. Run `index.html` in your browser.
 
 ---
 
