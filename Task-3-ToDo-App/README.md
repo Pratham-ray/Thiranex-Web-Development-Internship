@@ -6,6 +6,12 @@ A simple and interactive To-Do List application developed using HTML, CSS, and J
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[pratham-ray-todo-app.netlify.app](https://pratham-ray-todo-app.netlify.app/)**
+
+---
+
 ## ✨ Features
 
 - Add Tasks
@@ -27,18 +33,12 @@ A simple and interactive To-Do List application developed using HTML, CSS, and J
 
 ## 📁 Folder Structure
 
-```
+```text
 Task-3-ToDo-App/
 │── index.html
 │── css/
 │── js/
 ```
-
----
-
-## 🚀 How to Run
-
-Open `index.html`.
 
 ---
 
