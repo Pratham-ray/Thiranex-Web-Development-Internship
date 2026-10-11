@@ -6,6 +6,12 @@ A responsive weather dashboard that fetches live weather information using the O
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[Weatherapp.netlify.app](https://task-4-weather-app.netlify.app/)**
+
+---
+
 ## ✨ Features
 
 - Search Weather by City
@@ -31,18 +37,12 @@ A responsive weather dashboard that fetches live weather information using the O
 
 ## 📁 Folder Structure
 
-```
+```text
 Task-4-Weather-Dashboard/
 │── index.html
 │── css/
 │── js/
 ```
-
----
-
-## 🚀 How to Run
-
-Open `index.html`.
 
 ---
 
