@@ -8,7 +8,7 @@ This project enhances the personal portfolio by implementing responsive web desi
 
 ## 🌐 Live Demo
 
-🚀 **[View Live Project](https://pratham-responsive-portfolio.netlify.app/)**
+🚀 **[pratham-responsive-portfolio.netlify.app](https://pratham-responsive-portfolio.netlify.app/)**
 
 ---
 
